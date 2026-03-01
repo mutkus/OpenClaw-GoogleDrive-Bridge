@@ -2,6 +2,8 @@
 A lightweight FastAPI bridge that lets an OpenClaw agent securely read and write notes/scripts to your personal Google Drive using OAuth 2.0 (drive.file scope). Designed for self‑hosted AI assistants that need structured, file‑based memory in Drive.
 This project is a small **FastAPI bridge** that lets an **OpenClaw agent** read and write notes/scripts to your **personal Google Drive** using OAuth 2.0.
 
+# Blog Link: https://www.mutkus.com/nedir/ai/openclawi-kisisel-google-driveiniza-baglamak/ 
+
 The goal:
 
 > Give your agent commands like "save this note to Drive", "write this script and store it in Drive", "open yesterday's note and summarize it".
