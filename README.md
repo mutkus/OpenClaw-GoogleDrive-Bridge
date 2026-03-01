@@ -33,7 +33,7 @@ OpenClaw-GoogleDrive-Bridge/
 ### 1) Clone & install
 
 ```bash
-git clone https://github.com/<your-user>/OpenClaw-GoogleDrive-Bridge.git
+git clone https://github.com/mutkus/OpenClaw-GoogleDrive-Bridge.git
 cd OpenClaw-GoogleDrive-Bridge
 
 python3 -m venv .venv
@@ -75,7 +75,7 @@ scp credentials.json token.json user@server:/path/to/OpenClaw-GoogleDrive-Bridge
 Create a folder in Google Drive (e.g. "Kanka") and copy its ID from the URL:
 
 ```python
-KANKA_FOLDER_ID = "YOUR_DRIVE_FOLDER_ID"
+OPENCLAW_GOOGLEDRIVE_FOLDER_ID = "YOUR_DRIVE_FOLDER_ID"
 ```
 
 Update this constant in `main.py`.
