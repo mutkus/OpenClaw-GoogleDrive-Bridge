@@ -1,6 +1,5 @@
 # OpenClaw-GoogleDrive-Bridge
 A lightweight FastAPI bridge that lets an OpenClaw agent securely read and write notes/scripts to your personal Google Drive using OAuth 2.0 (drive.file scope). Designed for self‑hosted AI assistants that need structured, file‑based memory in Drive.
-
 This project is a small **FastAPI bridge** that lets an **OpenClaw agent** read and write notes/scripts to your **personal Google Drive** using OAuth 2.0.
 
 The goal:
@@ -33,7 +32,7 @@ OpenClaw-GoogleDrive-Bridge/
 ### 1) Clone & install
 
 ```bash
-git clone https://github.com/mutkus/OpenClaw-GoogleDrive-Bridge.git
+git clone https://github.com/<your-user>/OpenClaw-GoogleDrive-Bridge.git
 cd OpenClaw-GoogleDrive-Bridge
 
 python3 -m venv .venv
@@ -75,7 +74,7 @@ scp credentials.json token.json user@server:/path/to/OpenClaw-GoogleDrive-Bridge
 Create a folder in Google Drive (e.g. "Kanka") and copy its ID from the URL:
 
 ```python
-OPENCLAW_GOOGLEDRIVE_FOLDER_ID = "YOUR_DRIVE_FOLDER_ID"
+KANKA_FOLDER_ID = "YOUR_DRIVE_FOLDER_ID"
 ```
 
 Update this constant in `main.py`.
