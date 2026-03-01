@@ -71,10 +71,10 @@ scp credentials.json token.json user@server:/path/to/OpenClaw-GoogleDrive-Bridge
 
 ### 4) Configure folder ID
 
-Create a folder in Google Drive (e.g. "Kanka") and copy its ID from the URL:
+Create a folder in Google Drive (e.g. "OpenClaw Files") and copy its ID from the URL:
 
 ```python
-KANKA_FOLDER_ID = "YOUR_DRIVE_FOLDER_ID"
+OPENCLAW_GOOGLEDRIVE_FOLDER_ID = "YOUR_DRIVE_FOLDER_ID"
 ```
 
 Update this constant in `main.py`.
