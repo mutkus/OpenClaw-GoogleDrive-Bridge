@@ -34,7 +34,7 @@ OpenClaw-GoogleDrive-Bridge/
 ### 1) Clone & install
 
 ```bash
-git clone https://github.com/<your-user>/OpenClaw-GoogleDrive-Bridge.git
+git clone https://github.com/mutkus/OpenClaw-GoogleDrive-Bridge.git
 cd OpenClaw-GoogleDrive-Bridge
 
 python3 -m venv .venv
